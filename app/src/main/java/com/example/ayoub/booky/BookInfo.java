@@ -9,9 +9,9 @@ public class BookInfo extends AppCompatActivity {
 
 
     private static final String  TAG = BookInfo.class.getSimpleName() ;
-    EditText BookTitle ;
-    EditText Author;
-    EditText ReleaseDate;
+    private EditText bookTitle ;
+    private EditText author;
+    private EditText releaseDate;
 
 
     @Override
@@ -19,9 +19,9 @@ public class BookInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_info);
 
-        BookTitle = findViewById(R.id.BookTitle) ;
-        Author = findViewById(R.id.Author) ;
-        ReleaseDate= findViewById(R.id.ReleaseDate) ;
+        bookTitle = findViewById(R.id.BookTitle) ;
+        author = findViewById(R.id.Author) ;
+        releaseDate= findViewById(R.id.ReleaseDate) ;
 
     }
 
